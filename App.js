@@ -1,13 +1,5 @@
-import * as React from "react";
-import { WebView } from "react-native-webview";
+import Main from "./components/screens/MainScreen";
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <WebView
-        source={{ uri: "http://wapborhan.com" }}
-        style={{ marginTop: 25 }}
-      />
-    );
-  }
+export default function App() {
+  return <Main />;
 }
