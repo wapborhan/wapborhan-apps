@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "wapborhan",
+    "name": "WapBorhan",
     "slug": "wapborhan",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,7 +24,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "wapborhan.com"
+      "package": "com.wapborhan.com",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
