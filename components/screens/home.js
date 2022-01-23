@@ -4,6 +4,6 @@ import { WebView } from "react-native-webview";
 export default class Home extends Component {
   render() {
     const uri = "https://code.wapborhan.com/appsite/";
-    return <WebView source={{ uri }} />;
+    return <WebView source={{ uri }} style={{ marginTop: 25 }} />;
   }
 }

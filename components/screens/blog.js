@@ -4,6 +4,6 @@ import { WebView } from "react-native-webview";
 export default class Blog extends Component {
   render() {
     const uri = "https://blog.wapborhan.com";
-    return <WebView source={{ uri }} />;
+    return <WebView source={{ uri }} style={{ marginTop: 25 }} />;
   }
 }

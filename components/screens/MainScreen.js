@@ -40,7 +40,7 @@ export default function Main() {
         drawerContent={(props) => <DrowerHeader {...props} />}
         initialRouteName="Home"
         screenOptions={{
-          headerShown: true,
+          headerShown: false,
           drawerLabelStyle: { marginLeft: -25 },
           drawerActiveBackgroundColor: "#ff014f",
           drawerActiveTintColor: "#fff",
